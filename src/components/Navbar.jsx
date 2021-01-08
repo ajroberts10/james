@@ -14,6 +14,7 @@ function App() {
                         <Nav.Link href="/home">Home</Nav.Link>
                         <Nav.Link href="/games">Games</Nav.Link>
                         <Nav.Link href="/films">Films</Nav.Link>
+                        <Nav.Link href="/art">Art</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>

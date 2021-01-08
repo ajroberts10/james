@@ -4,6 +4,7 @@ import ReactDOM from "react-dom";
 import Home from "./pages/Home";
 import Games from "./pages/Games";
 import Films from "./pages/Films";
+import Art from "./pages/Art";
 import Navbar from "./components/Navbar";
 import * as serviceWorker from "./serviceWorker";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
@@ -15,6 +16,9 @@ ReactDOM.render(
         <Navbar />
         <Router>
             <Switch>
+                <Route path="/art">
+                    <Art />
+                </Route>
                 <Route path="/games">
                     <Games />
                 </Route>
